@@ -1,4 +1,4 @@
-package org.sunbird.job.task
+package org.sunbird.job.relationcache.task
 
 import java.util
 

@@ -1,7 +1,6 @@
-package org.sunbird.job.functions
+package org.sunbird.job.relationcache.functions
 
 import java.lang.reflect.Type
-
 import com.datastax.driver.core.querybuilder.QueryBuilder
 import com.google.gson.reflect.TypeToken
 import org.apache.commons.collections.{CollectionUtils, MapUtils}
@@ -12,9 +11,11 @@ import org.apache.flink.shaded.jackson2.com.fasterxml.jackson.databind.ObjectMap
 import org.apache.flink.streaming.api.functions.ProcessFunction
 import org.slf4j.LoggerFactory
 import org.sunbird.job.cache.{DataCache, RedisConnect}
+import org.sunbird.job.relationcache.task.RelationCacheUpdaterConfig
 import org.sunbird.job.task.RelationCacheUpdaterConfig
 import org.sunbird.job.util.CassandraUtil
 import org.sunbird.job.{BaseProcessFunction, Metrics}
+import org.sunbird.relationcache.task.RelationCacheUpdaterConfig
 
 import scala.collection.JavaConverters._
 

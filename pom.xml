@@ -20,16 +20,16 @@
 	<url>https://sunbird.org/</url>
 
 	<modules>
-		<module>jobs-core</module>
+<!--		<module>jobs-core</module>-->
 		<module>relation-cache-updater</module>
-		<module>activity-aggregate-updater</module>
-    	<module>post-publish-processor</module>
-		<module>video-stream-generator</module>
-    	<module>publish-pipeline</module>
-		<module>search-indexer</module>
-		<module>enrolment-reconciliation</module>
-		<module>asset-enrichment</module>
-		<module>audit-history-indexer</module>
+<!--		<module>activity-aggregate-updater</module>-->
+<!--    	<module>post-publish-processor</module>-->
+<!--		<module>video-stream-generator</module>-->
+<!--    	<module>publish-pipeline</module>-->
+<!--		<module>search-indexer</module>-->
+<!--		<module>enrolment-reconciliation</module>-->
+<!--		<module>asset-enrichment</module>-->
+<!--		<module>audit-history-indexer</module>-->
   </modules>
 
 	<properties>
