@@ -1,4 +1,4 @@
-package org.sunbird.job.common
+package org.sunbird.aggregate.common
 
 import java.security.MessageDigest
 

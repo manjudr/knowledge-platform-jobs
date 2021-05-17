@@ -1,4 +1,4 @@
-package org.sunbird.job.functions
+package org.sunbird.aggregate.functions
 
 import java.lang.reflect.Type
 import java.security.MessageDigest

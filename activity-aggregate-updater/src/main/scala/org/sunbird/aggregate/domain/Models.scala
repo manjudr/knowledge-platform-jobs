@@ -1,4 +1,4 @@
-package org.sunbird.job.domain
+package org.sunbird.aggregate.domain
 
 import java.util
 import java.util.{Date, UUID}

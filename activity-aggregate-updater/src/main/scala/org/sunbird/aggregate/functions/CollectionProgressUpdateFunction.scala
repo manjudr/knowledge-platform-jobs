@@ -1,4 +1,4 @@
-package org.sunbird.job.functions
+package org.sunbird.aggregate.functions
 
 import com.datastax.driver.core.querybuilder.{QueryBuilder, Select, Update}
 import org.apache.flink.api.common.typeinfo.TypeInformation

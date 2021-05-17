@@ -1,4 +1,4 @@
-package org.sunbird.job.task
+package org.sunbird.aggregate.task
 
 import java.io.File
 import java.util
